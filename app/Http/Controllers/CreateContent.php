@@ -102,6 +102,7 @@ class CreateContent extends Controller
 //        DB::table('posts')->delete();
 //        DB::table('posts')->truncate();
 
+
         Post::truncate();
         return back();
     }
